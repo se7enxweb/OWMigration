@@ -6,7 +6,7 @@ class OWMigrationOperators
       Constructor
      */
 
-    function OWMigrationOperators()
+    function __construct()
     {
         $this->Operators = array(
             'camelize',
