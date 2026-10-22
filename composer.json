@@ -1,0 +1,31 @@
+{
+    "name": "se7enxweb/owmigration",
+    "description": "OWMigration for Exponential: versioned up and down migrations for content classes, roles, workflows and object states, run from the command line, with an admin tab that generates the migration code from the existing definitions",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "Exponential", "Exponential 6", "legacy extension", "migrations", "deployment", "content classes", "roles", "workflows", "object states" ],
+    "homepage": "https://github.com/se7enxweb/OWMigration",
+    "license": "GPL-2.0-only",
+    "authors": [
+        { "name": "Open Wide", "homepage": "http://www.openwide.fr", "role": "Author" },
+        { "name": "Madeline Veyrenc", "role": "Developer" },
+        { "name": "Fabien Jarnet", "role": "Developer" },
+        { "name": "Simon Boyer", "role": "Developer" },
+        { "name": "7x", "homepage": "https://se7enx.com", "email": "info@se7enx.com", "role": "Maintainer" }
+    ],
+    "support": {
+        "issues": "https://github.com/se7enxweb/OWMigration/issues",
+        "source": "https://github.com/se7enxweb/OWMigration"
+    },
+    "require": {
+        "php": ">=8.0",
+        "se7enxweb/exponential-legacy-installer": "*"
+    },
+    "suggest": {
+        "ext-zip": "Needed by the Export all buttons of the code generator",
+        "se7enxweb/owscriptlogger": "Required at run time: the OWScriptLogger extension (https://github.com/se7enxweb/OWScriptLogger), which every migration step logs through"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "owmigration",
+        "installer-name": "owmigration"
+    }
+}

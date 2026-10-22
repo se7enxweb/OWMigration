@@ -2,14 +2,25 @@
 <software>
     <metadata>
         <name>OWMigration</name>
-        <version>1.0</version>
-        <copyright>OpenWide http://www.openwide.fr/</copyright>
+        <version>1.1.4</version>
+        <copyright>Copyright (C) Open Wide http://www.openwide.fr/, Copyright (C) 2024 - 2026 7x</copyright>
         <license>GNU General Public License v2.0</license>
-        <info_url>https://github.com/organizations/Open-Wide</info_url>
+        <info_url>https://github.com/se7enxweb/OWMigration</info_url>
+
+        <software>
+            <uses>
+                <name>GeSHi - Generic Syntax Highlighter</name>
+                <license>GNU General Public License v2.0 (or any later version)</license>
+                <info_url>https://github.com/GeSHi/geshi-1.0</info_url>
+                <version>1.0.8.11</version>
+            </uses>
+        </software>
+
     </metadata>
+
     <dependencies>
         <requires>
-            <extension name="owsriptlogger" />
+            <extension name="owscriptlogger" />
         </requires>
     </dependencies>
 </software>
