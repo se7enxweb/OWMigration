@@ -13,7 +13,7 @@ class owmigrationInfo
     {
         return array(
             'Name' => 'OWMigration',
-            'Version' => "1.1.4",
+            'Version' => "1.1.5",
             'Copyright' => 'Copyright (C) Open Wide http://www.openwide.fr/, Copyright (C) 2024 - 2026 7x',
             'License' => 'GNU General Public License v2.0',
             'Info_url' => 'https://github.com/se7enxweb/OWMigration',
