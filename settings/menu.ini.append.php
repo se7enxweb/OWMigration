@@ -10,6 +10,9 @@ Tabs[]=owmigration
 NavigationPartIdentifier=owmigration
 Name=Migrations
 Tooltip=Génération migration code
+# Icon - (optional) the name of an icon admin4 draws before the tab's name: a name of design.ini
+#        [AdminDesignSettings] IconList[] (Bootstrap Icons); a name it does not know draws no icon.
+Icon=database
 URL[]
 URL[default]=owmigration/dashboard
 Enabled[]
@@ -50,3 +53,4 @@ LinkNames[description_role]=Role
 LinkNames[description_workflow]=Workflow
 LinkNames[description_state_group]=State group
 
+*/ ?>
